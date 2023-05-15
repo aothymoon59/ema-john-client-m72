@@ -1,0 +1,40 @@
+.header {
+    height: 80px;
+    background-color: #1C2B35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 30px;
+}
+
+.header a:hover {
+    color: orange;
+}
+
+.text-white {
+    color: white;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:600px) {
+    .header {
+        height: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .header a {
+        margin-left: 8px;
+    }
+
+    .header img {
+        width: 100px;
+    }
+}
